@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Ajustes globais */
+
+/* Declara variaveis para aplicação das cores */
+:root{
+    --fundo:#132437;
+    --bg-home:#010300;
+    --linha-decorativa:#C7CDD6;
+    --texto-suave: #b3c0cf;
+    --branco:#ffffff;
+    --amarelo: #f7c13c;
+    --borda-suave: rgba(255,255,255,0.2);
+    --sombra-passo-clara:rgba(145,145,145,0.2);
+    --sombra-passo-escura: rgba(0,0,0,0.50);
+    --sombra-neo-clara: rgba(255,255,255,0.7);
+    --sombra-neo-escura: rgba(0,0,0,0.8);
+    --texto-escuro:#0c0a0a;
+    --borda:#313A3E;
+    --erro:#d40000;
+    
+    
+}
+
+/*configuração global*/
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: "Noto Sans", sans-serif;
+}
+/*rola a tela de forma suave*/
+html{
+    scroll-behavior: smooth;
+}
