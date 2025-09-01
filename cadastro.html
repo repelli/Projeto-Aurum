@@ -4,28 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="styles/cadastro.css">
+    <link rel="stylesheet" href="styles/global.css">
+
 
     <header class="cabecalho-cadastro">
         <a href="#" class="barra-topo-cadastro">
            <img src="assets/img/icone-logo.svg" alt="Logotipo Aurum Lab" class="logo-cadastro">
         </a>
-       Cadastro
-        <h3>Crie uma nova conta de usuário para o Aurum Lab</h3>
+        <section class="secao-banner-cadastro">
+            <div class="texto-banner-cadastro">
+               <h1 class="titulo-banner-principal-cadastro">Cadastro</h1>
+               <p class="subtitulo-banner-cadastro">Crie uma nova conta </p>
+            </div>
+          </section>
+      
     </header>
 </head>
 
 <body>
     
-    <main class="container-cadastro"></mian>
+    <main class="container-cadastro">
+
+       
+
 <section>
 
     <form class="form-cadastro">
+        <div class="label-esquerdo">
         <label for="nome"> Nome Completo</label>
         <input type="text" id="nome" required>
+        
 
         <label for="email">E-mail:</label>
         <input type="email" id="email" placeholder="email@email.com" required>
 
+    </div>
+    <div class="lado-direito">
         <label for="senha">Senha:</label>
         <div class="campo-senha">
           <input type="password" id="senha" placeholder="*********" required>
@@ -33,17 +48,19 @@
             <img src="assets/icon/eye.svg" alt="">
           </span>
         </div>
+        
 
         <label for="Confirmar-senha"> Confirmar senha</label>
         <div class="confirmar-senha">
             <input type="password" id="confirmar-senha" placeholder="**********" required>
             <h6>A senha deve conter letras, números e caracteres especiais para maior segurança</h6>
-            <span clas="icone-olho">
+            <span class="icone-olho1">
                 <img src="assets/icon/eye.svg" alt="">
             </span>
         </div>
+        </div>
 
-        <button type="submit" class="botao-login">ENTRAR</button>
+        <button type="submit" class="botao-cadastro">ENTRAR</button>
 
         <a href="#" class="link-voltar">Voltar</a>
       </form>

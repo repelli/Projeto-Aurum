@@ -133,4 +133,34 @@ input{
     text-align: center;
     margin-top: 20px;
     display:none;/*esconde o elemento na tela*/
+    
+
+    .logo-resp{
+        display: none;
+    }
+}
+/*RESPONSIVIDADE - MEDIA QUERY*/
+@media (max-width: 900px) {
+    .container-login{
+        grid-template-columns: 1fr;
+    }
+    .painel-esquerdo{
+        margin: 0;
+    }
+    .descricao{
+        font-size: 1.1em;
+        max-width: 55%;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-resp{
+        display: inline;
+        margin-bottom: 50px;
+    }
+    
+}
+@media(max-width:600px) {
+    
+    
 }
