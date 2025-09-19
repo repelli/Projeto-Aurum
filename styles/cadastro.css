@@ -1,189 +1,30 @@
 
 
-.cabecalho-cadastro{
+body{
+    color:var(--branco);
+    background-color: var(--bg-home);
+}
 
+.cabecalho{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+  
     background-color:var(--fundo);
     box-shadow: 0 1px o var(--borda-suave);
 }
+.logo{
 
-.logo-cadastro{
     width: 4%;
-    margin: 10px 10px;
-  
-    
-}
-.secao-banner-cadastro{
-    background-position: 20% bottom;
-    background-repeat: no-repeat;
-    background-size: 40%;
     display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items:flex-start;
-    height: 20vh;
-    padding: 0% 10%;
-}
-
-.texto-banner-cadastro
-{
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
-    justify-content: ;
-    text-align: center;
-    max-width: 30%;
-}
-.titulo-banner-principal-cadastro{
-    font-size: 2rem;
-    font-weight: 800;
-    margin-bottom: 12px;
-  
-
-}
-
-.subtitulo-banner-cadastro
-{
-    text-align: center;
-    color: var(--texto-suave);
-}
-/*
-
-
-
-.cabecalho-cadastro{
-  
-        display: flex;
-        flex-direction: column;
-        background-color:var(--fundo);
-        box-shadow: 0 1px o var(--borda-suave);
-    
-}
-
-
-.secao-banner-cadastro{
-
-    background-position: 10% top;
-    background-repeat: no-repeat;
-    background-size: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: left;
-    height: 30vh;
-    padding: 10% 10%;
+ 
     
 }
-
-
-
-
-.logo-cadastro{
-    width: 4%;
-    margin: 10px 0 10px;
-
-}
-
-.descricao-cadastro{
-    margin: 0 0 60px;
-    font-size: 0.9em;
-    font-weight: 300;
-
-}
-
-.container-cadastro{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100vh;
-
-}
-
-.form-cadastro{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100vh;
-    gap: 50px;
-
-
-  
-
-}
-.label-esquerdo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-  
-    
-
-}
-
-.label-direito{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-
-
-}
-input{
-    padding: 12px;
-    border: 1px solid var(--borda);
-    border-radius: 10px;
-    font-size: 1rem;
-    width: 100%;
-
-}
-
-.campo-senha{
+.barra-topo{
     display: flex;
     align-items: center;
-    width: 100%;
-    position: relative;
-}
-.icone-olho{
-    position:absolute;
-    right: 5%;
-    top: 50%; 
-  transform: translateY(-50%); /*move o elemento para cima metade pda sua 
-  pr[opria altura*/
-  }
-
-  .icone-olho1{
-    position:absolute;
-    right: 53%;
-    top: 55%; 
-  
-  transform: translateY(-50%); /*move o elemento para cima metade pda sua 
-  pr[opria altura*/
-  }
-
-
-  .botao-cadastro{
-
-    background-color: var(--fundo);
-    color: var(--amarelo);
-    padding: 14px;
-    border: none;
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 1rem;
-    width: 100%;
-}
-
-.botao-cadastro:hover{
-    background-color: #26394E;
-    cursor: pointer;
-    
-}
-
-.link-voltar{
-    text-align: center;
-    font-size: 0.9rem;
-    text-decoration: underline;
-    font-weight: 600;
-    color:var(--texto-escuro);
-    margin-top: 10px;
+    justify-content: center;
+    padding: 40px 20px;
+    height: 10vh;
+    border-bottom: 1px solid var(--branco);
 }
